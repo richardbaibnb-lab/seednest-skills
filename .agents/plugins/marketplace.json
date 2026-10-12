@@ -1,0 +1,20 @@
+{
+  "name": "seednest-team",
+  "interface": {
+    "displayName": "Seednest 团队技能库"
+  },
+  "plugins": [
+    {
+      "name": "seednest-skills",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

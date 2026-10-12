@@ -1,0 +1,65 @@
+{
+  "snapshot_date": "2026-09-08",
+  "feishu_export_row_count": 3729,
+  "scope": "selected reference properties only; historical raw references, not a fully reconciled actual-price database",
+  "sources": [
+    {
+      "file": "全房源组合采买Master清单_10套房源 (15).xlsx",
+      "sha256": "879fb9f1ac8d28fadebf8af68ef35f6149f817483fe2ff236f88516782019478"
+    },
+    {
+      "file": "SEEDNEST民宿总表_（新）采购总表 (1).xlsx",
+      "sha256": "7d9a372bf0d15afd141c05f0adf40e4818ec0d8adf83e6beab01f9e55b4beb84"
+    }
+  ],
+  "tiers": {
+    "au-high": {
+      "count": 920,
+      "statuses": {
+        "已下单": 641,
+        "已完成": 155,
+        "未开始": 93,
+        "": 30,
+        "缺货": 1
+      },
+      "flagged_rows": 156,
+      "properties": {
+        "302 Toogood Rd": 169,
+        "30 John Harris Drive ": 141,
+        "2 Colehurst Cresent ": 5,
+        "2 Lena Close Swan Hill, VIC 3585": 3,
+        "30 Para Road, Tanunda, SA 5352": 222,
+        "18 Plaintain Street, Kewarra Beach, Qld 4879": 226,
+        "230 Olinda-monbulk Road Monbulk, VIC 3793": 154
+      }
+    },
+    "au-low": {
+      "count": 227,
+      "statuses": {
+        "未开始": 87,
+        "": 1,
+        "已下单": 139
+      },
+      "flagged_rows": 124,
+      "properties": {
+        "16 Gorman Drive, Mill Park, VIC 3082": 227
+      }
+    },
+    "mixed": {
+      "count": 190,
+      "statuses": {
+        "未开始": 154,
+        "": 2,
+        "已下单": 34
+      },
+      "flagged_rows": 180,
+      "properties": {
+        "151 Parry St, Perth, WA 6000, Australia": 190
+      }
+    }
+  },
+  "china_catalog": {
+    "sku_count": 94,
+    "suppliers": 43
+  }
+}

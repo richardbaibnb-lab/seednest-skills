@@ -1,0 +1,4 @@
+interface:
+  display_name: "平面图转3d图 floor planner"
+  short_description: "按实测房间尺寸建模，结合飞书采购与历史案例完成 Floorplanner 3D 布置"
+  default_prompt: "使用 $floor-planner，根据这个房源地址和我补充的尺寸，先上传2D平面图、确认房间尺寸，再扩展全屋，并按飞书新采购表和我的历史案例完成3D布置，最后列出额外添加的物品。"

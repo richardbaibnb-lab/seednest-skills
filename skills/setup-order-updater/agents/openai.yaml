@@ -1,0 +1,3 @@
+interface:
+  display_name: "Setup Order Updater"
+  short_description: "Match setup screenshots and update Feishu orders"

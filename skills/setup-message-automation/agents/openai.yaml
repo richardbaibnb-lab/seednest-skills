@@ -1,0 +1,4 @@
+interface:
+  display_name: "SETUP-自动消息设置"
+  short_description: "复制Guesty三组自动消息，保留规则，更新入住说明及全部清洁团队收件人"
+  default_prompt: "使用 $setup-message-automation 为我提供的房源地址设置Guesty自动消息，匹配同管理方式及同物业类型的参考，只复制编辑目标副本，从对应pdfFiller手册取得入住信息，并将所有清洁通知换成目标房源的清洁团队。"

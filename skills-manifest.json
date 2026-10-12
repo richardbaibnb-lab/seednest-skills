@@ -1,0 +1,818 @@
+{
+  "version": "1.0.0",
+  "import_date": "2026-10-12",
+  "skill_count": 24,
+  "file_count": 135,
+  "files": [
+    {
+      "path": "skills/1688-order-screenshot-tracker/agents/openai.yaml",
+      "bytes": 330,
+      "sha256": "f63e88b5fa4c6520c1822156023efd4ccf3ac4f5ad00596335a6ef95d7ad01ef",
+      "git_blob_sha": "18f15afbb6a1d4ea9bad9ee19d2f10b4f38f66d6"
+    },
+    {
+      "path": "skills/1688-order-screenshot-tracker/SKILL.md",
+      "bytes": 3876,
+      "sha256": "072aaf1a0d12f338d113741716e9c91855e2344101208ca031aa1e6d71cc210d",
+      "git_blob_sha": "895dea0e9f7024811c2bf5364a13504364750686"
+    },
+    {
+      "path": "skills/arrival-payment-watch/agents/openai.yaml",
+      "bytes": 411,
+      "sha256": "9ce2f31770972add7ebbc1aa6c83bba7ef2fd7b35cc9e99ffecb0e800464af92",
+      "git_blob_sha": "d0b203752a5c8427893deb7a975edb88a8dc20b5"
+    },
+    {
+      "path": "skills/arrival-payment-watch/references/operations.md",
+      "bytes": 5670,
+      "sha256": "ecc32801143c87a2e7008200b66ba324ac17d02ec8835ad28e8952ab481a04c1",
+      "git_blob_sha": "1def4fd68783505ef16daa994e65c94fa8ba7563"
+    },
+    {
+      "path": "skills/arrival-payment-watch/SKILL.md",
+      "bytes": 10222,
+      "sha256": "859e44c5fcea7202ad06cb60d88fb8a855f6f4faf5ae945593c327e92fd19e3b",
+      "git_blob_sha": "6614349b52f65ce1b40903fc7d889af51db04a8c"
+    },
+    {
+      "path": "skills/breezeway-weekly-review/agents/openai.yaml",
+      "bytes": 352,
+      "sha256": "9f625620ed93f75b9621a3b2ac80162b14755743b04579bb21e8fe140387734d",
+      "git_blob_sha": "7b2ba8c74f140c4f5207518e1fb27244bedfac45"
+    },
+    {
+      "path": "skills/breezeway-weekly-review/scripts/report_pdf.py",
+      "bytes": 3622,
+      "sha256": "3bf7a24e48c52916df3419d8d3335942dcb2cd72fbbc3ad14b061c863e78e362",
+      "git_blob_sha": "4e25cd2f743b33e63723d503c345b8abd5cef823"
+    },
+    {
+      "path": "skills/breezeway-weekly-review/SKILL.md",
+      "bytes": 8024,
+      "sha256": "16c53cd16e88075d3d0a842d03b7f6ec9d53aefcc24c7b0c2b242b2571929b04",
+      "git_blob_sha": "67e42898a187500a506263986bcaad10621174ee"
+    },
+    {
+      "path": "skills/chrome-task-recovery/agents/openai.yaml",
+      "bytes": 337,
+      "sha256": "cdb2531b569013800941b38301edac8fd444583b3a0ef41e167ce4b4be0e98c8",
+      "git_blob_sha": "7022a098da2d40c6f200e0231d8447c806f2e53d"
+    },
+    {
+      "path": "skills/chrome-task-recovery/SKILL.md",
+      "bytes": 6232,
+      "sha256": "4a703a07a2501a894c3f9901cdecaab303e1e6446657cd4b731a08f9d2a733a4",
+      "git_blob_sha": "8fbb97c00151d1e201a719684185e0e44aa1f4a4"
+    },
+    {
+      "path": "skills/feishu-contact-manager-weekly/agents/openai.yaml",
+      "bytes": 329,
+      "sha256": "8c22c3354b97061ff4d5d485bdc51c0ecd520b5e52a6aa96d3c8f80c99e147c8",
+      "git_blob_sha": "1cca9c11a1d1e05b33578789cdce3b7e81d7cc57"
+    },
+    {
+      "path": "skills/feishu-contact-manager-weekly/references/decision-guide.md",
+      "bytes": 1322,
+      "sha256": "1ded896a9a15d7c70eb6daa5fdbdc8a531d31ed05892914d0da15e7a4ad974ce",
+      "git_blob_sha": "65a2917437ea39d009367c24cae494f9824af724"
+    },
+    {
+      "path": "skills/feishu-contact-manager-weekly/SKILL.md",
+      "bytes": 4651,
+      "sha256": "5c56661d17d77c49a979550c99908a59d736dda28ce7378855613a7dc66119ff",
+      "git_blob_sha": "75b7c9abd2283de42e17b248c575c42ce37bd867"
+    },
+    {
+      "path": "skills/feishu-property-pdf-filer/agents/openai.yaml",
+      "bytes": 301,
+      "sha256": "49f0d4738b73ea27c2b845192b63c5196333ee87ef24cb9003e585738e5ef087",
+      "git_blob_sha": "649b3e58ffb9c68cb22f24dd97612cddcf9a8f07"
+    },
+    {
+      "path": "skills/feishu-property-pdf-filer/SKILL.md",
+      "bytes": 33003,
+      "sha256": "1b445250e87916e310c6a36546245785908e18a8dfcb0cad9e71d140f850ccb3",
+      "git_blob_sha": "71ebb9ae8a3e9fe360b38afd0f79b3ee132c5f73"
+    },
+    {
+      "path": "skills/feishu-startrise-monthly-finance/agents/openai.yaml",
+      "bytes": 283,
+      "sha256": "84aada38ac5656897cf7ca4e4cad541e2b17d6291635faa4f6eac798a0ef92ff",
+      "git_blob_sha": "6b4593392b9530ef94a7228817cd02535c606ed2"
+    },
+    {
+      "path": "skills/feishu-startrise-monthly-finance/SKILL.md",
+      "bytes": 5825,
+      "sha256": "a2dfd21f636515daa74c4e7ce0243d14dffbdb1d858fd0b19a875b427400a5fe",
+      "git_blob_sha": "de9d7b0a8cf4ada8ecac4f9349c67e30e30bc043"
+    },
+    {
+      "path": "skills/floor-planner/agents/openai.yaml",
+      "bytes": 434,
+      "sha256": "eccafbf7f63ad1786fa3a1b5d7a52dc12d94c2cb524ba620c51a9c9cba04f54f",
+      "git_blob_sha": "e0e69e6e546839de15527084c88c0ed427dba002"
+    },
+    {
+      "path": "skills/floor-planner/references/sources.md",
+      "bytes": 3547,
+      "sha256": "6569972b4d5c15c50324d0e9ce64f340f5139cbe193bcb7d60e04207ae523df3",
+      "git_blob_sha": "99c8a053f2225af026adc7ea976e83486bd11533"
+    },
+    {
+      "path": "skills/floor-planner/SKILL.md",
+      "bytes": 11053,
+      "sha256": "76ad013ef31aa60a9e66469bb9c3abf018a71cb663225c0dff8cb592132ede7f",
+      "git_blob_sha": "692228a7116da61531eb730c8a9e6c2a24421c34"
+    },
+    {
+      "path": "skills/new-airbnb-listing/agents/openai.yaml",
+      "bytes": 416,
+      "sha256": "35644aadca17df4d857c437cfd1116d20e6a08e952d59ae7ae547a18fb421301",
+      "git_blob_sha": "ab4d10758f55f6e5bd2fb2716e91529669145d71"
+    },
+    {
+      "path": "skills/new-airbnb-listing/references/accounts/seednest-manage.md",
+      "bytes": 6294,
+      "sha256": "d45027b4250742d81e81effe649007e2c6337ea1623db3a9aceef574db970d56",
+      "git_blob_sha": "cdb869ba250a20e94689a9e208e567759aa3a400"
+    },
+    {
+      "path": "skills/new-airbnb-listing/references/amenities-standard.md",
+      "bytes": 4044,
+      "sha256": "d4cbf693f9e168adf151ba7ad8086349cc5ccad8a62ebde490d71dfd81a88a34",
+      "git_blob_sha": "90aeca5e2a2f283c06482854d11de117dceafdf6"
+    },
+    {
+      "path": "skills/new-airbnb-listing/references/cases/616-magill.md",
+      "bytes": 1617,
+      "sha256": "ec815e296f615035da24ddbd41d41fb1e627476106d2a2a4ef27728c4fcaabca",
+      "git_blob_sha": "0a868d006948c851b1346a7a618f62a13e1f2ec9"
+    },
+    {
+      "path": "skills/new-airbnb-listing/references/cases/g15-reynolds.md",
+      "bytes": 5734,
+      "sha256": "f081face3368bf835c382340d7e91f0468daede4315bc1d82ac85eb4c532f2e0",
+      "git_blob_sha": "b72fe66787276c7691c75e3b638688760fa4bd08"
+    },
+    {
+      "path": "skills/new-airbnb-listing/references/cases/gorman-mill-park.md",
+      "bytes": 3238,
+      "sha256": "2fa0170729e5bb2f7d874105bf10d6f14564512222bdc9a73dbe89e9582200d8",
+      "git_blob_sha": "b514c84a22bc4459ce487367dcf9b91b2f41d9a3"
+    },
+    {
+      "path": "skills/new-airbnb-listing/references/field-guide.md",
+      "bytes": 6459,
+      "sha256": "a050eef2c06fbf4d0bba3eed7eeb6dc2e52f5bd9ff601287006a2d8d7096f7ab",
+      "git_blob_sha": "1969913d7ba4f1123df03f57b44d1fbe9ef2d384"
+    },
+    {
+      "path": "skills/new-airbnb-listing/references/managed-description-standard.md",
+      "bytes": 5551,
+      "sha256": "018b8b32f65c43e2014955e447c530cc47e6c27055c2a9c4307bc387a4070e56",
+      "git_blob_sha": "f39159e1bb26ce9366900c625ebd814c4aaf56f7"
+    },
+    {
+      "path": "skills/new-airbnb-listing/references/naming-options.md",
+      "bytes": 4919,
+      "sha256": "5f72ff183caaf9e70faf9d0bdfa03a6d35fa385ac195d7a37f7af66e0312116e",
+      "git_blob_sha": "95617cb08259b1378743d1b29a6911c0c94420fd"
+    },
+    {
+      "path": "skills/new-airbnb-listing/references/rules.md",
+      "bytes": 11237,
+      "sha256": "19958d6050625187ce3a61643fc8673e4377f7d119604c550fe68670d907894e",
+      "git_blob_sha": "2686b22a81d6a8c41fee6b58281d8af2b330af57"
+    },
+    {
+      "path": "skills/new-airbnb-listing/references/seednest-naming.md",
+      "bytes": 3274,
+      "sha256": "cf6e3a2842c90a00c40b083f9f3799976a74f85aba29e69426d0da9977cb5103",
+      "git_blob_sha": "63539d42c0903c71c323140ed02fcfbec0f82acf"
+    },
+    {
+      "path": "skills/new-airbnb-listing/SKILL.md",
+      "bytes": 12413,
+      "sha256": "9c31412e741e81619257711bc8b592414ed30f486311e08fa8653700f41aa29b",
+      "git_blob_sha": "35126494d43d93e92379d9a0d1288eaa8f688b20"
+    },
+    {
+      "path": "skills/operation-breezeway-onboarding/agents/openai.yaml",
+      "bytes": 184,
+      "sha256": "06cc5dccc32306fbba23b5e20a1aa788a60268c7f7c030d2b52d0f6077e9a235",
+      "git_blob_sha": "5d6cb29f5194b81d766c3e4558a42cad69ce6e3a"
+    },
+    {
+      "path": "skills/operation-breezeway-onboarding/SKILL.md",
+      "bytes": 6580,
+      "sha256": "761c89c078388ae768c473310d370b1b42fee472183e9e2f90dd477b554dd645",
+      "git_blob_sha": "6c107e335f63676019c4abc65bf9f754f145ed14"
+    },
+    {
+      "path": "skills/operation-quickbook-monthly-bank-reconciliation/agents/openai.yaml",
+      "bytes": 544,
+      "sha256": "b32346b80ba71a5bd02e0ab7b68ced84afd55322f972dc1f475aed04ce87c30d",
+      "git_blob_sha": "8d3f5958f5b815689ccaba203f1f5c764f0add54"
+    },
+    {
+      "path": "skills/operation-quickbook-monthly-bank-reconciliation/references/account-inventory.md",
+      "bytes": 12345,
+      "sha256": "e2a411cb79087fb2da31bbd49556b5facea5370cc0806305e8b90b9b66164769",
+      "git_blob_sha": "e32e06f360127a66ec8865c029d670d8fc42fcf8"
+    },
+    {
+      "path": "skills/operation-quickbook-monthly-bank-reconciliation/references/account-map.md",
+      "bytes": 11916,
+      "sha256": "70a81002bb3e58afe84992e67c2520d16078a5ff3c85ad8806fa92195a12b8a2",
+      "git_blob_sha": "b2defbe46a2b1d34b466377edbc3de60abdad747"
+    },
+    {
+      "path": "skills/operation-quickbook-monthly-bank-reconciliation/references/platform-reconciliation.md",
+      "bytes": 10105,
+      "sha256": "79044511c6b8d9240f316f5c54e2e3bc25d23ae7407758dbcde0c4ebb5c508cb",
+      "git_blob_sha": "21084943d9012a39efec6774be5f675820c191ac"
+    },
+    {
+      "path": "skills/operation-quickbook-monthly-bank-reconciliation/references/report-contract.md",
+      "bytes": 7077,
+      "sha256": "cd9cd970ca57adb13f0d5427f7e67e0cc6b8204f846940c0a2688b1a5c72c143",
+      "git_blob_sha": "5518ce03602c6f2cdaaad99afd824bb05b4562eb"
+    },
+    {
+      "path": "skills/operation-quickbook-monthly-bank-reconciliation/SKILL.md",
+      "bytes": 17103,
+      "sha256": "e03c5eab08977f652866433abef6428415ef69a6141c1452131be0a285468257",
+      "git_blob_sha": "651bbb3f3b1616f207e3213b92991b09ae6b4b4a"
+    },
+    {
+      "path": "skills/operation-thursday-invoices/agents/openai.yaml",
+      "bytes": 374,
+      "sha256": "ae239abfc478e80840d0371fedf95d7ae36347106a3c6ed4d46351b15e357d2c",
+      "git_blob_sha": "90bd24397fd54e08d91f19d059f3ec80ddd709dc"
+    },
+    {
+      "path": "skills/operation-thursday-invoices/scripts/prepare_week.py",
+      "bytes": 3951,
+      "sha256": "395f995cafaa899473b2c335b39bff9cb96001254953f7bef01a16b3e6707a86",
+      "git_blob_sha": "65cc9847a9b4be416be434b80959b41e7c2b4871"
+    },
+    {
+      "path": "skills/operation-thursday-invoices/SKILL.md",
+      "bytes": 10746,
+      "sha256": "2b83caa4a417ae3ad00a7ae91433bc7022de2aa1dde285053048ce256ea868df",
+      "git_blob_sha": "5beb78a5403d088b512d23c7d9084caf48550d00"
+    },
+    {
+      "path": "skills/quickbook-reconciliation-category/agents/openai.yaml",
+      "bytes": 386,
+      "sha256": "50e1324817dbfa62d7faa53dff12e7a2c016231ac3611d46597c7c41280f191e",
+      "git_blob_sha": "c8208120331a91cf70751fbec38f720efffc0764"
+    },
+    {
+      "path": "skills/quickbook-reconciliation-category/references/business-rules.md",
+      "bytes": 13077,
+      "sha256": "78cef5aeb47b0d629b2e6a5cfb4d0b93b66e0af157d69962987efa2fee79dc8d",
+      "git_blob_sha": "778cb2cdcef0d5f0e37369b0dcb8f4c8974f8076"
+    },
+    {
+      "path": "skills/quickbook-reconciliation-category/references/quickbooks-ui.md",
+      "bytes": 5093,
+      "sha256": "63ed3e739d3c88d6bc39d94aa38f4422932d1509684e35f542faca83f06a8161",
+      "git_blob_sha": "f1886f6da0b9fbea233cf6959cdb8654911c6ed7"
+    },
+    {
+      "path": "skills/quickbook-reconciliation-category/references/source-map.md",
+      "bytes": 4322,
+      "sha256": "9bfa81bb76d751aa534b339ec141d8be755053ca4e7983bb6d001ffc92ee92fe",
+      "git_blob_sha": "95ae89b01bcab8b9fc141cabd1352c73b016063e"
+    },
+    {
+      "path": "skills/quickbook-reconciliation-category/scripts/compare_exports.py",
+      "bytes": 3813,
+      "sha256": "f089d47cc7fe854810a4d2c2a74d545a3a964af2c1df78085e3ab0ac5fc5edfb",
+      "git_blob_sha": "b8321c4ef97738e5092533b1914f76b9be7bfc8c"
+    },
+    {
+      "path": "skills/quickbook-reconciliation-category/SKILL.md",
+      "bytes": 8632,
+      "sha256": "b9b955a3b06ac7a5a68a288a3c824fd726113bd4fe7996fb5f6ac202c65963aa",
+      "git_blob_sha": "4e7a9fe5ba515adcf8a024a2bc433f380fbcca14"
+    },
+    {
+      "path": "skills/sales-str-report/agents/openai.yaml",
+      "bytes": 384,
+      "sha256": "6fb91b0f2357d73dc25d00a120b07709eb0fbd61409cdbff419c474504070374",
+      "git_blob_sha": "ea8eb783cb5f0463dc968776063effbd8966df49"
+    },
+    {
+      "path": "skills/sales-str-report/references/screenshot-guide.md",
+      "bytes": 4579,
+      "sha256": "35766a207fd18625a83e3f972158ae1e43f54dc99ed04ddd7607f6f4a7c92baf",
+      "git_blob_sha": "cab1590edd87c7a104e3f48942de00bb2c9ec04a"
+    },
+    {
+      "path": "skills/sales-str-report/references/screenshots/01-qwilr-sample-folder.png",
+      "bytes": 131249,
+      "sha256": "818f4773b0351c4bc4cd39c2d37842046b52e4f4810528062b049e661b816494",
+      "git_blob_sha": "0a5fdab978a753f9ef86adbfd69a95881129477f"
+    },
+    {
+      "path": "skills/sales-str-report/references/screenshots/02-qwilr-title-cover-date.png",
+      "bytes": 1509668,
+      "sha256": "e0557ae639351d969545ddfc9b808e7a2c46d66ebd078a82deb8a4333c15286d",
+      "git_blob_sha": "819d1e4639c6a1bcb13aba812b01402f644ee60b"
+    },
+    {
+      "path": "skills/sales-str-report/references/screenshots/03-qwilr-property-photos.png",
+      "bytes": 498622,
+      "sha256": "641fd960871e33f0179196a73d72ac41a3e7149fd80f9db2274f8a9f6e030295",
+      "git_blob_sha": "13229a96dc4458509415acefd4860f502a89a5b0"
+    },
+    {
+      "path": "skills/sales-str-report/references/screenshots/04-qwilr-surrounding-comparison.png",
+      "bytes": 395996,
+      "sha256": "69093d1901396888d8060003f28d0b4d1f2b4e6506727bf8ddb8cebf89a439d8",
+      "git_blob_sha": "522314ebae47c43618cf199f306e01c3d6de7a46"
+    },
+    {
+      "path": "skills/sales-str-report/references/screenshots/05-airdna-rentalizer-entry.png",
+      "bytes": 266892,
+      "sha256": "bdd9e39ff0f74d573ea64d6a13507c5f42ae9eb790b83c853d92408d7ac483a0",
+      "git_blob_sha": "747bc8273b67481a3f104f8ffe1370aa2530d57c"
+    },
+    {
+      "path": "skills/sales-str-report/references/screenshots/06-airdna-initial-results.png",
+      "bytes": 365524,
+      "sha256": "b6bd43a6b0e768575afa706c09725df7e6d12810f305f10266ee9801072c6ca6",
+      "git_blob_sha": "18bf2ae6f273e2ae673fe5bac6e49f6127d0ff88"
+    },
+    {
+      "path": "skills/sales-str-report/references/screenshots/07-airdna-property-settings.png",
+      "bytes": 352429,
+      "sha256": "81f6cd3115bc88ea140bf545c3c0da1b19a0b64b83416e53060ec4dc3526da68",
+      "git_blob_sha": "e5feae075157e8ca9e8deed0a818a07576e61de9"
+    },
+    {
+      "path": "skills/sales-str-report/references/screenshots/08-airdna-guests-bedrooms.png",
+      "bytes": 518600,
+      "sha256": "002ac67c19e1548444f2bf613956d8206d597db10c1a1c99e6418238ddbcbff2",
+      "git_blob_sha": "02723ee9bd5cd0942f42171eba7053ff8631b68a"
+    },
+    {
+      "path": "skills/sales-str-report/references/screenshots/09-airdna-entire-place.png",
+      "bytes": 519055,
+      "sha256": "4dfdefa4dee42f628d01204b1a50e28d5a4fd56d43f977714fd1f3cf4437ef58",
+      "git_blob_sha": "90e47f25bb67b8c9c9809cf37f4a8f8a7973980f"
+    },
+    {
+      "path": "skills/sales-str-report/references/screenshots/10-airdna-house-types.png",
+      "bytes": 511072,
+      "sha256": "9da61046386705ab582179db7f24072388bcac919a2633a3319adb6b2112c045",
+      "git_blob_sha": "e1b661a97f9324c45bb0c08b9889bd7f501be842"
+    },
+    {
+      "path": "skills/sales-str-report/references/screenshots/11-airdna-days-available.png",
+      "bytes": 500006,
+      "sha256": "15e18eaeb8db5ddad7ab0bb8d67af871f5b705b9a6ff114b1fd4a90f30899488",
+      "git_blob_sha": "152aa304d05742912b3da70358f1056b3a0aad73"
+    },
+    {
+      "path": "skills/sales-str-report/references/screenshots/12-airdna-remove-default-comps.png",
+      "bytes": 525083,
+      "sha256": "adb80b1014c3b1087969928e29a32a5228f2e76169a761fef0a6b32870f15bc5",
+      "git_blob_sha": "569c9c47ad5c117c6f421673ccbb4ed07f955ff7"
+    },
+    {
+      "path": "skills/sales-str-report/references/screenshots/13-airdna-add-available-comps.png",
+      "bytes": 508883,
+      "sha256": "b5fa43c5743563e51e7fbe6d94e2fba35bee1c12d228068fa77d0e949e52541e",
+      "git_blob_sha": "ee0e4a86ee83fafbe64016723afb59641b2982f9"
+    },
+    {
+      "path": "skills/sales-str-report/references/screenshots/14-airdna-expand-map.png",
+      "bytes": 630756,
+      "sha256": "c8265c11ea2bed4102d2e69419d63bcf6999ea485d8cb78d101d33accedc1892",
+      "git_blob_sha": "d3315e1d5be295a4a2db6285c8bf7e101e62f989"
+    },
+    {
+      "path": "skills/sales-str-report/references/screenshots/15-airdna-view-submarket.png",
+      "bytes": 330382,
+      "sha256": "0d234e02b662c7aa995c01192e31f16edf1c91eb3fb81370c2ee389d0a59c92e",
+      "git_blob_sha": "78e67a0e05a6fac9dc1ce0f4a31ef7645d58ab74"
+    },
+    {
+      "path": "skills/sales-str-report/references/screenshots/16-airdna-seasonality.png",
+      "bytes": 501624,
+      "sha256": "dfa278dc0e002959219d4c2280efbbd43f031c37307fcdc6594c59042e0b7596",
+      "git_blob_sha": "76281e2b0374d54af31bbe62238959295223ba09"
+    },
+    {
+      "path": "skills/sales-str-report/SKILL.md",
+      "bytes": 25293,
+      "sha256": "8075e9be8149c630ff6733b34c7ccb6a9756934b6eeb6135ac2c86d00a840387",
+      "git_blob_sha": "193b65c259dc30aff44fe7b86791cb21c23a464f"
+    },
+    {
+      "path": "skills/seednest-order-tracker/agents/openai.yaml",
+      "bytes": 117,
+      "sha256": "eca3b3757a4e44bc40516df63dcafd441c0fa199ce99197fc004a1de6d4ff917",
+      "git_blob_sha": "4f0d51cb5f7b535af6cbc507eb576122cd8f7637"
+    },
+    {
+      "path": "skills/seednest-order-tracker/references/order-schema.md",
+      "bytes": 1360,
+      "sha256": "d8ad8c24d77ecb6cf0e04285776ce9da96edb9a1664fa3b456d58fd95af40ab1",
+      "git_blob_sha": "c1009d63bd0fb888431cf2a59ed90082e8ea6cc1"
+    },
+    {
+      "path": "skills/seednest-order-tracker/references/platforms.md",
+      "bytes": 1544,
+      "sha256": "5fa7c54a3173d9016fb9b24d8ffc6d05fcf50fe3531fe59d67848228f3bd01b9",
+      "git_blob_sha": "238c3fdd5f92f311572d746a24144d088862ceb0"
+    },
+    {
+      "path": "skills/seednest-order-tracker/SKILL.md",
+      "bytes": 5196,
+      "sha256": "36862626387fc3186ed6b0b80ba48c9db08d4c0deccfec2981fa8ba0e6613050",
+      "git_blob_sha": "377df83aa536a1e980fc166dc10d5670d24a39a1"
+    },
+    {
+      "path": "skills/seednest-presign-procurement/agents/openai.yaml",
+      "bytes": 340,
+      "sha256": "109bbd9870549469fa4c6d33cd89896f2e55d6b056ba175bf8217a93f9d1697e",
+      "git_blob_sha": "d83152dcf24d1408772602a48823595eca40127d"
+    },
+    {
+      "path": "skills/seednest-presign-procurement/assets/au-low-outdoor-large-reference.png",
+      "bytes": 1072886,
+      "sha256": "34ecc61fff410c7db53704e3a0f8de233f2f346036d43e954c43b2c1eabd4122",
+      "git_blob_sha": "a0192a7f3e43dde470a33a50299557cbf65015b9"
+    },
+    {
+      "path": "skills/seednest-presign-procurement/assets/seednest-logo.png",
+      "bytes": 1735685,
+      "sha256": "c100d7ba9a3c9230f9ab7151449bc80b5aa63e49f0465eb7526400a000c97517",
+      "git_blob_sha": "cad35b1db26b4ef489b8682f85c90fdab463b81f"
+    },
+    {
+      "path": "skills/seednest-presign-procurement/references/brand-style.md",
+      "bytes": 1619,
+      "sha256": "67bf0d52b00c44ed46e8f0af9a6fc44ac711e9e91b9bf4b8381e327118ef03b3",
+      "git_blob_sha": "4e8552d95184552bd0198b3c6ffb242382c12668"
+    },
+    {
+      "path": "skills/seednest-presign-procurement/references/data/au-high.json",
+      "bytes": 888859,
+      "sha256": "aacd70384fb8b8fa67d53ce059fd95175de89c0cbf58d2009996a630a453fd56",
+      "git_blob_sha": "98382984c67f98402b0fa9ee5398c236fd5fd330"
+    },
+    {
+      "path": "skills/seednest-presign-procurement/references/data/au-low.json",
+      "bytes": 247309,
+      "sha256": "0734d30ce9caa66d214d9edb261d9b2495be99b59137c3195be089d0c61076e8",
+      "git_blob_sha": "86c880602817228f4033ec708ac0f0d192482a2b"
+    },
+    {
+      "path": "skills/seednest-presign-procurement/references/data/china-parry-detail.json",
+      "bytes": 90805,
+      "sha256": "b5dbb0d4e8948d70ea66a23376f5fd55808cc08a29bbd77b29433b72d42c403a",
+      "git_blob_sha": "837b772fd48e3edd757f6860b035fc25d865f22e"
+    },
+    {
+      "path": "skills/seednest-presign-procurement/references/data/china-supplier-catalog.json",
+      "bytes": 54618,
+      "sha256": "b169d3262b994741acb922afe2ca4853ba67755926b8568e7de40d05ca926959",
+      "git_blob_sha": "f482ea0c5b3eb3a4412f8d125dffe17c7356be19"
+    },
+    {
+      "path": "skills/seednest-presign-procurement/references/data/mixed.json",
+      "bytes": 203985,
+      "sha256": "e94497236c3e205e70ed2f78a9b69ef1c3de127e11257b02baff99d5e14b9376",
+      "git_blob_sha": "5f02200dca8f8935d521cbd59f32c4b4833507de"
+    },
+    {
+      "path": "skills/seednest-presign-procurement/references/data/snapshot-manifest.json",
+      "bytes": 1746,
+      "sha256": "6b1fe309ac5f45f38695b5aeccdfd12f8b8f938472894a0de183f2715ebc1d6a",
+      "git_blob_sha": "915f265cf7ec68945336f6e2244a1a6b8552ad72"
+    },
+    {
+      "path": "skills/seednest-presign-procurement/references/estimating.md",
+      "bytes": 3847,
+      "sha256": "daf8ca3bd6e4e0e682687bf953a2825b5057fcbc2ce0d73d6666d37020cf7586",
+      "git_blob_sha": "2f6fe297ac5ed82a8e0deea346aa6cef84e31e8d"
+    },
+    {
+      "path": "skills/seednest-presign-procurement/references/pdf-input.md",
+      "bytes": 2892,
+      "sha256": "c956e57a89987570e6572c128db2eeb04126f9d3a539810a8157f6df6fc8da58",
+      "git_blob_sha": "10cbd4ac704f4f8c2a60be43fe44a819b3ad9ad8"
+    },
+    {
+      "path": "skills/seednest-presign-procurement/references/sources.md",
+      "bytes": 5455,
+      "sha256": "5cb6936d37fe35e95cf330ca1c5388c001708105a8a20ad97ce9a385a9a256fe",
+      "git_blob_sha": "58f706eae6615b2b9764378fe2a31bbed0d93aef"
+    },
+    {
+      "path": "skills/seednest-presign-procurement/scripts/render_branded_estimate.py",
+      "bytes": 8044,
+      "sha256": "d9077c69e6601f646550839d8b5ad3ee98650960c33d184ca271ed1f03f75a0b",
+      "git_blob_sha": "dc079637dd96696a19b2b94886fec060b7158e9f"
+    },
+    {
+      "path": "skills/seednest-presign-procurement/scripts/render_estimate.py",
+      "bytes": 9584,
+      "sha256": "8d1b39236e56593a3527db19460fc0ee7a34e5d3b6409b88828265c5476a9fcb",
+      "git_blob_sha": "c784ed2edf61513523db29d94d54d38a6c0fa121"
+    },
+    {
+      "path": "skills/seednest-presign-procurement/SKILL.md",
+      "bytes": 13566,
+      "sha256": "9100256fac5f78f916d0444101734437e397e1ffed2f4d40a501bcf4639eb112",
+      "git_blob_sha": "915824813846f6536d50a2bd1f98059d65db6a7d"
+    },
+    {
+      "path": "skills/seednest-property-monthly-finance/agents/openai.yaml",
+      "bytes": 272,
+      "sha256": "300e83fb5be0735b1408e7790b804344241aebcd37b222db7adc665cc433e775",
+      "git_blob_sha": "2bf86f6de75a85141566d2e319e5898821b0f121"
+    },
+    {
+      "path": "skills/seednest-property-monthly-finance/SKILL.md",
+      "bytes": 11225,
+      "sha256": "eff39ee510679bd1f76cbbd77037400ce01fa5c9449b471c352336bffeeabf92",
+      "git_blob_sha": "8d717d82bc7b9493ba9fa1af61c3a1d52ffb8196"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/agents/openai.yaml",
+      "bytes": 349,
+      "sha256": "bd4ded71ed6ec1767c1194a2f65c37d0d17fb60f185804b64b2e80d0f529bda3",
+      "git_blob_sha": "71341ca70e261f880d5c939dabd4b01759346955"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/finance.md",
+      "bytes": 7178,
+      "sha256": "4e59a8384546fee17446a951ce9e1c570dfecdcb391cec49b8007fc3e16a7c6a",
+      "git_blob_sha": "1cdc70897d420ecfb17ac7e84beb3069d087b813"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/property-policies.md",
+      "bytes": 3970,
+      "sha256": "70ab5fe69dde46c0217ea30a9d82d3558d9ca124aa7e576872824e7ddc4e0820",
+      "git_blob_sha": "034a2c51b686d088ee2965f5d175273f0f2645cd"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshot-index.md",
+      "bytes": 2838,
+      "sha256": "08d7fe406ee9fcb29e19962f75da40039fca9cbca1ed8a31f83ff652379cca3a",
+      "git_blob_sha": "357ea653331c6016c658e0a8b2e1cfc2dc99f215"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/01.png",
+      "bytes": 209826,
+      "sha256": "ad79e73b384bd8e07fa6decc65be8a10dd1b3bbb96488dbba9d6163f80078b3a",
+      "git_blob_sha": "ad4db9d3e4613a891e7a7a59aed6ab677a017be2"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/02.png",
+      "bytes": 195797,
+      "sha256": "99ce1c7f6139a75f0af72e9b450e6494ab3decdd342db85346a01d52ede9a551",
+      "git_blob_sha": "d60ec42dd149a36cca82182592c67159d30d1581"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/03.png",
+      "bytes": 137791,
+      "sha256": "0175cfa3d8dfd9422b388c66488e0398b6b1c88e625955a4f08ded8659a2cd2c",
+      "git_blob_sha": "5dac0712ad6b679f5122f51b6b715773b6a16525"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/04.png",
+      "bytes": 103546,
+      "sha256": "0b0d4563a8095f077e0fbd4e3c52dc1019745527ab4b26fdee20d9e1c46eb231",
+      "git_blob_sha": "4f7d7572dfa9d48f6f14557f7bf26def2a819757"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/05.png",
+      "bytes": 85696,
+      "sha256": "36caf5957dff9f3cb4814f0dccb243406cbfc3ccc1818ab38971c2ba25855993",
+      "git_blob_sha": "2f9255b17621dcbff88075d5886416384e76da13"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/06.png",
+      "bytes": 81753,
+      "sha256": "e41cf76d948627829e0359b2b1ed97349474dd14d985dcd2ee28cc3e4cba9949",
+      "git_blob_sha": "44983c1179da3010a166c8ed8275e8c404f0c8cf"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/07.png",
+      "bytes": 133933,
+      "sha256": "c1033e02776f2d3da2cbaaf7747239aee369fe0070a04fcfcc3558ed41bc0ebb",
+      "git_blob_sha": "85e57a15086961f8483938aaa9827fbd35ee377a"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/08.png",
+      "bytes": 162022,
+      "sha256": "e51fde7657c65c649c73ba5e9df749e3cdd2a2dd4970dd208dfd15d0650d8f9e",
+      "git_blob_sha": "f0ed3633ec82fa4d27f5861d881e524263ca78a8"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/09.png",
+      "bytes": 121969,
+      "sha256": "acf5221c52175dc9e91adf887a5bd0e1ef402c0923a77a3ebf7d62c751bb3cd0",
+      "git_blob_sha": "24a8d09e8e1bad9ab21e25b426e4c74a5fc145bc"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/10.png",
+      "bytes": 119443,
+      "sha256": "8771a6940bf41e5f1d17795e59f23b4a7efd794d4aae6d780bcb5c35b83e34c4",
+      "git_blob_sha": "8406ce2123aac72046dd5a4555aa078777b45034"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/11.png",
+      "bytes": 113971,
+      "sha256": "4ab5f030305f718cab5cb25e3330177548c85665d6075edda4e61dc72614a27b",
+      "git_blob_sha": "9797089a78db2ecce7064509f64e3fdb100f15bf"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/12.png",
+      "bytes": 116183,
+      "sha256": "70e3de3c40e0c85e4986bc1baa58bd3813f3e3c80f5bb28c8ce70bec6e0d852d",
+      "git_blob_sha": "696bda1b35a82fded9617a91c58eb7ffc4970a2b"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/13.png",
+      "bytes": 125480,
+      "sha256": "7f69e0a776636381875d8bfff31fc8783dfee9d4262b6c39a489335e8b0a3e32",
+      "git_blob_sha": "46ab1b016679023dba6d2b96ed95d3df4aa95c12"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/14.png",
+      "bytes": 87307,
+      "sha256": "1ab5c709c657bfc31daecc1deafaff355a502e94405f6abbaefd64d348f5050d",
+      "git_blob_sha": "96a7460f0c3210b059600a6dc02b2585e829375b"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/15.png",
+      "bytes": 57624,
+      "sha256": "4d3a70956e5179e95ec86f664745e67e0b2b0804b63e71c098075d8ae1456a10",
+      "git_blob_sha": "d8493103ad95f88f24cb810656671eb418041c7a"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/16.png",
+      "bytes": 112798,
+      "sha256": "46cad0bedb222ce22fc2331d6bc59b8a427e849ae72de9f8eed9aedca74247ea",
+      "git_blob_sha": "155da156b9ac2d8a897d0c0d84fd89c785b0cf1d"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/17.png",
+      "bytes": 111065,
+      "sha256": "3c9a58ff604b184ab9237b81649799a8ebe8ca91c0d0075a5075bff7f43fd2d3",
+      "git_blob_sha": "d5917844b1b1ef37534954e2f88ad2f95a2da3a2"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/19.png",
+      "bytes": 111561,
+      "sha256": "4f25f973d8833850eade2581f2d3c3c079ed92e796d9bec34f24aae0fba3c4a6",
+      "git_blob_sha": "6353233f760d4e42be749a124ddc233cd19131c2"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/20.png",
+      "bytes": 108727,
+      "sha256": "5b444b65f35ca44bbc0b2f38c4e27cb1065c03ec14121b358334cadea58905d9",
+      "git_blob_sha": "dae9db950e57d5681e1e40e7b2da2d3301551582"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/21.png",
+      "bytes": 127881,
+      "sha256": "ab886543be1c6ab4a7f695168002be7ae11b185f59116bc1c82e0b3c3f08e3c6",
+      "git_blob_sha": "0a4e70b1ca174a0d158f9b21040e127be1ffd1ea"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/23.png",
+      "bytes": 120756,
+      "sha256": "b4ec5e629ea08df4e34a173ffab1482e3a8d2a3918b6f55789ee9f1ae176dcaf",
+      "git_blob_sha": "71f41229b64a670167bef7f88b391f76981b2a72"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/24.png",
+      "bytes": 83704,
+      "sha256": "41a9c15da2e49c862b2c90b6b73c879541af30ec5a3d714233d91e61e46e3e0e",
+      "git_blob_sha": "34587b09c1f3c626dc752e443d99be4affeca0a6"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/references/screenshots/25.png",
+      "bytes": 73349,
+      "sha256": "208ea7dc730660ccd7f053ef2ea295b36b75cbc77f991fdead99ca22cfb48c2e",
+      "git_blob_sha": "0b90c126c12a2a2faff94ca48ef817443949fe35"
+    },
+    {
+      "path": "skills/setup-booking-com-listing/SKILL.md",
+      "bytes": 9405,
+      "sha256": "6f801dc22a0860106b46eb0f99efd5d9826915d3c35749f1770331a6e3546112",
+      "git_blob_sha": "780790ef8e08c77da6249aa39a037d9f094e1d95"
+    },
+    {
+      "path": "skills/setup-checkin-manual/agents/openai.yaml",
+      "bytes": 445,
+      "sha256": "a7de44e8eb618b0dcddbf25074d7d4146647095ca2a23ebd578ead17c93940a5",
+      "git_blob_sha": "6df4930cd7bbf7d5cbff0e6b7c123b96d589e112"
+    },
+    {
+      "path": "skills/setup-checkin-manual/SKILL.md",
+      "bytes": 8300,
+      "sha256": "a19d19aab45de51a7ec04df8dfd1222f22a963156ad9944abcfc543ecb34297f",
+      "git_blob_sha": "3c4aac01df12810edb61b7f39b4e713fe3a17162"
+    },
+    {
+      "path": "skills/setup-group-arrival-followup/agents/openai.yaml",
+      "bytes": 454,
+      "sha256": "62a1cfa51f09d07abba7c3491841587de6a5486500306f8b38f3a6f9de7c5baa",
+      "git_blob_sha": "654f8f648c7bf0e3e2bbd9ae052af17599768ea6"
+    },
+    {
+      "path": "skills/setup-group-arrival-followup/references/first-day-handoff.md",
+      "bytes": 7313,
+      "sha256": "cadc9c234d9726ceb602c06c98d72d776026b80e80e255c7d94d5cc2fa77f05e",
+      "git_blob_sha": "425f9a1362b5b7cf103c471b66e601d3b28d934a"
+    },
+    {
+      "path": "skills/setup-group-arrival-followup/references/reconciliation-and-state.md",
+      "bytes": 7665,
+      "sha256": "f5f2757be32bf70c7d22e992c88635e1355620c21038c3c1ffbfa0d26ed91b15",
+      "git_blob_sha": "04294da81d3806d439ef4a28b7d97aa813bca92b"
+    },
+    {
+      "path": "skills/setup-group-arrival-followup/references/sources.md",
+      "bytes": 3290,
+      "sha256": "89da1617c94e88980e4a35ed368eea44ecaf2f446010d3d08523830de5fc581e",
+      "git_blob_sha": "d8a03323bc155c327d06149aa3df5032acfeac88"
+    },
+    {
+      "path": "skills/setup-group-arrival-followup/SKILL.md",
+      "bytes": 9921,
+      "sha256": "9f314306760a4228d26e6c81d02afa4896d61744f41dd2aac62d5a5c90fb4d16",
+      "git_blob_sha": "584377f5caca65390c6f44f86a238db455d998ec"
+    },
+    {
+      "path": "skills/setup-message-automation/agents/openai.yaml",
+      "bytes": 470,
+      "sha256": "de77e155c799673dbad3eaa719d42a3bef60364ccf42c7caa7de7d4b8ee3acff",
+      "git_blob_sha": "b8bb4ffae9997c84f344af766e21cda80e8b955a"
+    },
+    {
+      "path": "skills/setup-message-automation/SKILL.md",
+      "bytes": 12543,
+      "sha256": "cea8891f2c59e8c1bbafb73d73ca9d0dccc743d6980775d2f652a25e0dc2a8e0",
+      "git_blob_sha": "061f2eb00e50e3ffa7ff1352b6baaf86d53fc463"
+    },
+    {
+      "path": "skills/setup-order-updater/agents/openai.yaml",
+      "bytes": 121,
+      "sha256": "39b259cbcb53850503ddc7d49dfb7e48b1c530d15deeda643e20d39e4c86f1dc",
+      "git_blob_sha": "cae2412faca3cf49106267d31eee6d1306537601"
+    },
+    {
+      "path": "skills/setup-order-updater/references/1688-export.md",
+      "bytes": 1615,
+      "sha256": "d9e93290ab422797c9ffa2a5b1ad91d1f246f26ccefadc0abb5677fe35f8b2b4",
+      "git_blob_sha": "b4dfed6f8a2b4bc81a6f3a4c32a0239f0a9fdc38"
+    },
+    {
+      "path": "skills/setup-order-updater/SKILL.md",
+      "bytes": 3500,
+      "sha256": "e4f64ee59ffa792eb3c6fdc8010a0bc0e1e277da7a68b435fce0e335858d69bb",
+      "git_blob_sha": "35000ef3cb68e2b6387767fef634962574f47550"
+    },
+    {
+      "path": "skills/setup-property-invoice-reconciliation/agents/openai.yaml",
+      "bytes": 180,
+      "sha256": "90529b6cfd4e7d23acfbf7c36ca7091081dcd886b12ac98b471eac9c7ac4eba7",
+      "git_blob_sha": "92ec3e25bb186e8518c000cea785f6f4336bb38d"
+    },
+    {
+      "path": "skills/setup-property-invoice-reconciliation/SKILL.md",
+      "bytes": 11905,
+      "sha256": "0b7831f0667bb0b14668083756a9b8c4aac04b80b90df1e1c107e7e39fe8a1e6",
+      "git_blob_sha": "32e4eb0e8f54fa3e116429f4baea7d0a933e887a"
+    },
+    {
+      "path": "skills/support-email-reminder/agents/openai.yaml",
+      "bytes": 295,
+      "sha256": "ab8fa524935057abbbdcacb7f05f09cc8f3cd9ba39541e93f01678d2521ce850",
+      "git_blob_sha": "0b5c3d8b634a269dd647c04cc33fa43b0d9f7940"
+    },
+    {
+      "path": "skills/support-email-reminder/references/state-and-messages.md",
+      "bytes": 2874,
+      "sha256": "3e6469d870d828f7b5efdefbe12e1cac85e105c13172b592a53f9182d245f132",
+      "git_blob_sha": "0be5b3555f0740944c34bc84a1a4ab7112fa7823"
+    },
+    {
+      "path": "skills/support-email-reminder/SKILL.md",
+      "bytes": 6773,
+      "sha256": "4045ed2c021900694070a73b0f8eefd454af3011689ecdc268b72eced1f4d647",
+      "git_blob_sha": "ad4642901adfff7b1a5f60dc9d9776c4f8adfed3"
+    }
+  ]
+}

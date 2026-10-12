@@ -1,0 +1,4 @@
+interface:
+  display_name: "SETUP- booking.com上架"
+  short_description: "按地址核对 Airbnb，完成 Booking Extranet 房源设施、政策与收款设置"
+  default_prompt: "使用 $setup-booking-com-listing，按指定房源地址完成 Booking.com Extranet 上架设置，发送银行验证码前等我准备好，KYP 由我填写。"

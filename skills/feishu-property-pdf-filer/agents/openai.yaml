@@ -1,0 +1,4 @@
+interface:
+  display_name: "每周四核对账单"
+  short_description: "扫描下载目录，核对房源地址与月份并安全归档 PDF 到飞书云盘"
+  default_prompt: "使用 $feishu-property-pdf-filer 扫描下载文件夹中的房源 PDF，核对地址和月份后归档到飞书云盘。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "support邮箱提醒"
+  short_description: "每天检查客人咨询，通知飞书 Sabrina 并复查超时未回复邮件"
+  default_prompt: "使用 $support-email-reminder 检查 support@seednest.com.au 的客人咨询，通知 Sabrina 并复查回复情况。"

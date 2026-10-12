@@ -1,0 +1,4 @@
+interface:
+  display_name: "SALES-STR Report 收入报告制作"
+  short_description: "查询 AirDNA 并复制编辑 Qwilr 中英文房源收入报告，保存待验收"
+  default_prompt: "使用 $sales-str-report 为我指定的房源地址制作中文或英文收入报告，查询 AirDNA、复制对应 Qwilr sample 到 prepare，完成图文和数据更新后交我验收。"

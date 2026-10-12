@@ -1,0 +1,4 @@
+interface:
+  display_name: "1688订单截图归档"
+  short_description: "只看收货人，按括号地址归档含金额的1688订单详情截图"
+  default_prompt: "使用 $1688-order-screenshot-tracker 检查我的1688订单，只处理收货人含白5135的订单，并按括号后的地址归档带金额的详情截图。"

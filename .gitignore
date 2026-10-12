@@ -1,0 +1,12 @@
+# 本机身份和运行缓存
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+/skills/feishu-contact-manager-weekly/state.json
+/skills/new-airbnb-listing/state/

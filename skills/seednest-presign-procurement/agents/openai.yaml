@@ -1,0 +1,4 @@
+interface:
+  display_name: "SALES-签约前房源采购预算表"
+  short_description: "根据户型与三档历史采购记录，生成给房东的澳币采购预算PDF"
+  default_prompt: "请使用 $seednest-presign-procurement，根据我提供的户型图和采购档位，参考飞书历史记录生成房东版采购预算PDF。"

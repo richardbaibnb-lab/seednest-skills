@@ -1,0 +1,7 @@
+interface:
+  display_name: "飞书自动更新联系人管理"
+  short_description: "每周从邮箱和周度文件补充房源长期合作联系人"
+  default_prompt: "使用 $feishu-contact-manager-weekly 分析上周以来的 service、clean 邮件并更新飞书房源联系人。"
+
+policy:
+  allow_implicit_invocation: true

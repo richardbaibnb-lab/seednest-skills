@@ -1,0 +1,4 @@
+interface:
+  display_name: "OPERATION-周四发票录入"
+  short_description: "按周四周期检查七个邮箱，下载PDF及内联图片账单到本机固定分类目录"
+  default_prompt: "使用 $operation-thursday-invoices 执行最近一个完整周期的周四发票录入，检查七个邮箱并下载归档账单，补查 Maria 和 Damien 的内联图片。"

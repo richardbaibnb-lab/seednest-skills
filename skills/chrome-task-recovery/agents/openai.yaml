@@ -1,0 +1,6 @@
+interface:
+  display_name: "Chrome 任务连接与恢复"
+  short_description: "为已指定 Chrome 的任务复用连接、有限重试并验证实际目标页面"
+  default_prompt: "使用 $chrome-task-recovery 建立或复用 Chrome 连接，实际读取目标页面后继续当前任务。"
+policy:
+  allow_implicit_invocation: true

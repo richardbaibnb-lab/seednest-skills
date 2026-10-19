@@ -1,4 +1,4 @@
 interface:
-  display_name: "飞书 Startrise 月度财务"
+  display_name: "04-07 FINANCE｜每月·更新Startrise公司收支"
   short_description: "按月整理 Startrise 公司费用与房源管理费记录"
   default_prompt: "Use $feishu-startrise-monthly-finance to update the requested month in Feishu; if no month is specified, use last month."

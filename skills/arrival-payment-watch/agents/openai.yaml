@@ -1,6 +1,6 @@
 interface:
-  display_name: "OPERATION-3日未付款订单检测"
-  short_description: "每日检查三日内非 Airbnb 入住订单，飞书提醒 Sabrina 并在 Codex 通知"
-  default_prompt: "使用 $arrival-payment-watch 检查未来三日内非 Airbnb 入住订单的收款情况，Airbnb 默认 OK 不列入记录，并按已授权流程通知 Sabrina 和我。"
+  display_name: "03-02 OPERATION｜每日·检查未来3日入住订单收款"
+  short_description: "每日检查三日内非 Airbnb 入住订单，飞书提醒指定的吴单聊并在 Codex 通知"
+  default_prompt: "使用 $arrival-payment-watch 检查未来三日内非 Airbnb 入住订单的收款情况，Airbnb 默认 OK 不列入记录，并按已授权流程通知紫色头像的吴单聊和我。"
 policy:
   allow_implicit_invocation: true

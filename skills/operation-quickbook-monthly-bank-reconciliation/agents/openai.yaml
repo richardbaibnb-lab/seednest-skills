@@ -1,4 +1,4 @@
 interface:
-  display_name: "OPERATION-QUICKBOOK每月银行收入对账"
+  display_name: "04-05 FINANCE｜每月·核查到账差异与客人欠款"
   short_description: "以QuickBooks实际收款查客人欠款，区分系统未同步与平台银行未结款"
   default_prompt: "使用 $operation-quickbook-monthly-bank-reconciliation 以QuickBooks实际收款核查上个完整月份哪些客人仍未付清，Vrbo沿Stripe追查。先报告总项数、银行验证完成数、未完成数及问题数，候选不计完成；展示两个QuickBooks登录账号、银行覆盖、仍需登录和补资料的具体项。"

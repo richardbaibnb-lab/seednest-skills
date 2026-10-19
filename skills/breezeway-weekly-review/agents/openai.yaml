@@ -1,5 +1,5 @@
 interface:
-  display_name: "breezeway周度检查"
+  display_name: "03-03 OPERATION｜每周一·检查Breezeway清洁质量"
   short_description: "检查全部房源清洁任务和照片，按优先级生成图文PDF并发给飞书Sabrina"
   default_prompt: "使用 $breezeway-weekly-review 检查近期全部清洁任务及照片，生成图文PDF周报并发送给飞书Sabrina。"
 policy:

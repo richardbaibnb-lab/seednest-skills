@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "seednest-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Seednest 团队自制 Codex 技能合集：房源筹备、运营、采购、发票和财务。",
   "author": {
     "name": "Seednest"

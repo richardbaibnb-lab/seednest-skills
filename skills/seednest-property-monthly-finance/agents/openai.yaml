@@ -1,4 +1,4 @@
 interface:
-  display_name: "SEEDNEST民宿每月收支表-房源月度更新"
+  display_name: "04-04 FINANCE｜每月·更新房源月度收支"
   short_description: "Update monthly property income and expenses"
   default_prompt: "Use $seednest-property-monthly-finance to update one property's monthly Feishu income and expense records."

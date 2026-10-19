@@ -1,4 +1,4 @@
 interface:
-  display_name: "SETUP-群内跟进线下人员与到货统计"
+  display_name: "02-05 SETUP｜每日·跟进群内到货与布置"
   short_description: "按微信或WhatsApp群跟进两周房源布置，归档收货照片并更新飞书到货状态"
   default_prompt: "使用 $setup-group-arrival-followup，按我指定的房源和微信群或WhatsApp群启动两周setup跟进，首日发送布局图及采购PDF，每天核对收货、归档照片并更新飞书到货状态，完成前持续跟进。"

@@ -1,10 +1,16 @@
 # 入口、通知及状态
 
+## 当前飞书接收人（2026-10-19 用户更新）
+
+- 后续本流程结果及提醒发到用户截图选中的“吴”单聊：会话标题为“吴”，头像为紫色底白字“吴”；截图中可见 10:15 的 `hello` 消息。左侧另有 Sabrina（外部、红色“吴”头像），不能混淆或作为失败时的替代接收人。
+- 依据是用户在本聊天上传截图并明确要求“以后完事发这里”。截图仅确认用户指定目标；截至配置变更时尚未实时打开或发送到新会话。下次有实际发送需求时，先读取飞书页面，结合标题、头像及已有消息核实，确认后记录真实会话链接/ID（如可取得），不猜造。
+- 截图已保存在本流程 work 目录 `recipient-wu-20261019.png`，状态文件 `feishu_recipient` 保存当前目标及核实状态。历史 Sabrina 发送及回执仍保留原样；更换接收人本身不触发历史提醒重发。现有无风险/无变化静默与去重规则继续适用。
+
 ## 2026-10-07 已核实的入口
 
 - Guesty：`https://app.guesty.com/`，用户菜单显示 Richard Bai、Startrise Management Pty Ltd。
 - 订单：`https://app.guesty.com/reservations`，左侧有 Upcoming unpaid reservations。建立时默认打开的 Sample - In-House Pending Payment 实际只有 Check-out in future、Status Confirmed 两个筛选，包含已入住和余额为零的订单；不能把它当已经筛好的清单。
-- 飞书：`https://cn06o0gh8t.feishu.cn/next/messenger/`，2026-10-07 已成功读取消息页和 Sabrina 单聊，标记“外部”。会话中有 `Breezeway周度检查-20260928.pdf`、9 月 21–27 日周报说明、9 月 29 日 11 分 54 秒通话。历史身份线索还有红色“吴”头像。发送前核对会话身份，不按同名猜测。未取得专属会话链接，不编造。
+- 飞书入口：`https://cn06o0gh8t.feishu.cn/next/messenger/`。历史接收人 Sabrina（外部）于 2026-10-07 核实，红色“吴”头像，会话有 `Breezeway周度检查-20260928.pdf`、9 月 21–27 日周报说明、9 月 29 日 11 分 54 秒通话。此身份线索仅供识别历史回执；2026-10-19 后的新发送使用上方指定的紫色头像“吴”单聊。
 - 两个网页入口当前登录可用不代表将来永不失效。浏览器初始化错误不能当作退出登录；只有读到真实登录页才能判断需登录。
 - 2026-10-09 用户授权遇到 Guesty 登录页自行点 Continue：当前记住的账号为 online@seednest.com.au，密码可能在页面初次出现后才自动填入。沿用已填凭据点击 Continue，不读取密码；登录后仍须核对 Richard Bai / Startrise Management Pty Ltd。当天实测点击后进入 SMS authentication，需用户提供验证码或在页面完成；不要自行勾选“Do not challenge me on this device again”。
 - 用户明确不需要微信。本流程不启动、不读取、不发送微信。
@@ -23,6 +29,7 @@
 - `schema_version`：1。
 - `automation_id`：automation_update 返回的真实 ID；创建后补入。
 - `schedule`：频率、用户时区、是否已启用；不得仅凭文件写了 enabled 就声称调度成功。
+- `channels.feishu` / `feishu_recipient`：当前飞书收件人显示名、用户指定依据、身份线索和实时核实状态；`recipient_history` 保存接收人变更记录，不改写旧消息回执。旧 `setup_validation.feishu_conversation_read` 是历史验证，不能代替新接收人核实。
 - `source`：来源、账号、付款口径及是否为已披露默认；`excluded_channels` 包含 `Airbnb`，默认正常是业务排除口径，不是实际到账证据。
 - `last_complete_date` / `last_complete_at`：只在全量覆盖后更新。
 - `coverage`：窗口起止、账号、筛选、预期及已核对数、是否完整。

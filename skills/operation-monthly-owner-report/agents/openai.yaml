@@ -1,0 +1,4 @@
+interface:
+  display_name: "04-06 FINANCE｜每月·制作房东月度报告"
+  short_description: "核对每月房东收支、制作品牌PDF，并在用户确认后上传至Guesty"
+  default_prompt: "使用 $operation-monthly-owner-report 制作上个月房东报告，核对收入支出与收费公式，将Excel归档飞书并生成带logo的PDF供我确认，确认后上传对应Guesty房东。"

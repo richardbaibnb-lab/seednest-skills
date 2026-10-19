@@ -1,4 +1,4 @@
 interface:
-  display_name: "新airbnb上架"
+  display_name: "02-07 SETUP｜上线前·准备Airbnb上架草稿"
   short_description: "按资料填写新房源，提供SEEDNEST与AirDNA同区域两套名字供选择，保存草稿待确认发布"
   default_prompt: "使用 $new-airbnb-listing 新airbnb上架技能，按我提供的图片、地址及账号填写新房源，提供SEEDNEST取名和AirDNA同区域取名两套方案让我选择，保存草稿等我确认发布。"

@@ -1,6 +1,6 @@
 {
   "name": "seednest-skills",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Seednest 团队自制 Codex 技能合集：房源筹备、运营、采购、发票和财务。",
   "author": {
     "name": "Seednest"
@@ -9,7 +9,7 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Seednest 团队技能库",
-    "shortDescription": "24 个团队自制 Codex skills",
+    "shortDescription": "25 个团队自制 Codex skills",
     "longDescription": "包含既有工作流程、脚本、参考图和采购模板。使用前按团队接入说明配置业务账号、工具与本机路径。",
     "developerName": "Seednest",
     "category": "Productivity",

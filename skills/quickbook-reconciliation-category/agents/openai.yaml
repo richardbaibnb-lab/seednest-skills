@@ -1,4 +1,4 @@
 interface:
-  display_name: "QUICKBOOK对账分类"
+  display_name: "04-03 FINANCE｜按批·准备QuickBooks交易分类"
   short_description: "结合平台、邮箱票据和本地台账判断银行交易类别，填好待人工审核及Post"
   default_prompt: "使用 $quickbook-reconciliation-category，结合历史平台、邮箱和本地文件核对QuickBooks待处理银行交易，能确认的直接填写Category，保留人工审核和Post。"

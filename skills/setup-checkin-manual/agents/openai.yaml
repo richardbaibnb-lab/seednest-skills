@@ -1,4 +1,4 @@
 interface:
-  display_name: "Setup-入住手册制作"
+  display_name: "02-06 SETUP｜首客前·制作图文入住手册"
   short_description: "参考同类房源在飞书完成完整图文入住手册，导出 PDF 后原样上传 pdfFiller"
   default_prompt: "请使用 $setup-checkin-manual 为我提供的房源地址制作完整入住手册，结合注意事项，参考同房型及同管理类型历史手册，在对应飞书云盘完成后导出 PDF，原样上传 pdfFiller，不在 pdfFiller 编辑。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "01-03 SALES｜每日·发布Wix博客"
+  short_description: "每天墨尔本9点发布英文博客，附相关配图与聊天中文速览，按D方案轮换"
+  default_prompt: "使用 $sales-wix-daily-blog 检查发布队列，为 Seednest 正式站准备并预约下一篇英文博客，配1张封面及2–3张相关正文图，并直接在聊天提供中文速览，按墨尔本时间每天09:00发布，遵循已确认的D方案和去重规则。"

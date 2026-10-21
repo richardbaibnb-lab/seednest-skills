@@ -1,9 +1,15 @@
 {
-  "version": "1.1.0",
-  "import_date": "2026-10-19",
-  "skill_count": 25,
-  "file_count": 141,
+  "version": "1.2.0",
+  "import_date": "2026-10-21",
+  "skill_count": 27,
+  "file_count": 150,
   "files": [
+    {
+      "path": "skills/1688-order-screenshot-tracker/SKILL.md",
+      "bytes": 3876,
+      "sha256": "072aaf1a0d12f338d113741716e9c91855e2344101208ca031aa1e6d71cc210d",
+      "git_blob_sha": "895dea0e9f7024811c2bf5364a13504364750686"
+    },
     {
       "path": "skills/1688-order-screenshot-tracker/agents/openai.yaml",
       "bytes": 355,
@@ -11,10 +17,10 @@
       "git_blob_sha": "5dd2268fc382b56b47b63583c9f3a9e4b2c89c7c"
     },
     {
-      "path": "skills/1688-order-screenshot-tracker/SKILL.md",
-      "bytes": 3876,
-      "sha256": "072aaf1a0d12f338d113741716e9c91855e2344101208ca031aa1e6d71cc210d",
-      "git_blob_sha": "895dea0e9f7024811c2bf5364a13504364750686"
+      "path": "skills/arrival-payment-watch/SKILL.md",
+      "bytes": 10841,
+      "sha256": "4fb6416c1e19873b78e8464ee295597aa06657199a427b114fc8e6ed2d43a857",
+      "git_blob_sha": "094ea51fbbfec675cef5626b6e752dda2d3781b3"
     },
     {
       "path": "skills/arrival-payment-watch/agents/openai.yaml",
@@ -29,10 +35,40 @@
       "git_blob_sha": "18d796e4563b366473bd5efdf2a6433c25d1534b"
     },
     {
-      "path": "skills/arrival-payment-watch/SKILL.md",
-      "bytes": 10841,
-      "sha256": "4fb6416c1e19873b78e8464ee295597aa06657199a427b114fc8e6ed2d43a857",
-      "git_blob_sha": "094ea51fbbfec675cef5626b6e752dda2d3781b3"
+      "path": "skills/booking-guest-qa-review/SKILL.md",
+      "bytes": 11259,
+      "sha256": "b7525f320a2c8c7ff1336bb769db75d1732ec0dcbb699e50f08cae3dccb2d624",
+      "git_blob_sha": "5061b0449fcd7f63b647f59ad66894f069c5a601"
+    },
+    {
+      "path": "skills/booking-guest-qa-review/agents/openai.yaml",
+      "bytes": 377,
+      "sha256": "9724953947257a7129e4ab957a247f81107782599011fcf75bea4cfb5a2e823e",
+      "git_blob_sha": "50bc4802c8892097c7e08b940093dfa9c13248da"
+    },
+    {
+      "path": "skills/booking-guest-qa-review/references/operations.md",
+      "bytes": 4916,
+      "sha256": "7d1f4285b1f29d6b71b5b0a4c6ba068a24055fc90a9308f66742ba75be6e113f",
+      "git_blob_sha": "abcd0ea1379930c638b933e9363a51aa15f58de2"
+    },
+    {
+      "path": "skills/booking-guest-qa-review/references/report-format.md",
+      "bytes": 2860,
+      "sha256": "19f6bbbdb038b69885dd41491ab8645aca83bc230fb091fdce5733beb8ebbcfc",
+      "git_blob_sha": "6aff8aa105b8f61b14959f56de63e707e57d2d39"
+    },
+    {
+      "path": "skills/booking-guest-qa-review/scripts/build_report.py",
+      "bytes": 16148,
+      "sha256": "738a39da2854e4d59b12bf8467b752ad73f56ad641a6dd026bfc4560295b5c90",
+      "git_blob_sha": "b5216b1cd041310b58b218da9371dfe630b8fa62"
+    },
+    {
+      "path": "skills/breezeway-weekly-review/SKILL.md",
+      "bytes": 9522,
+      "sha256": "aa3352eec993c700ad17102b49b429faec78c75bda1d1fea6107ba34a3fd2e92",
+      "git_blob_sha": "c9c7de9d52a7296f22607279bdabfc5d913f90bc"
     },
     {
       "path": "skills/breezeway-weekly-review/agents/openai.yaml",
@@ -47,10 +83,10 @@
       "git_blob_sha": "4e25cd2f743b33e63723d503c345b8abd5cef823"
     },
     {
-      "path": "skills/breezeway-weekly-review/SKILL.md",
-      "bytes": 8024,
-      "sha256": "16c53cd16e88075d3d0a842d03b7f6ec9d53aefcc24c7b0c2b242b2571929b04",
-      "git_blob_sha": "67e42898a187500a506263986bcaad10621174ee"
+      "path": "skills/chrome-task-recovery/SKILL.md",
+      "bytes": 8342,
+      "sha256": "51933806a0f38241e37195ca22f6e1728d7481238fcd4ece5d2e641d99dd7458",
+      "git_blob_sha": "c369a5862dbcdfa75c5f474ce6e2ac04aae7a9b1"
     },
     {
       "path": "skills/chrome-task-recovery/agents/openai.yaml",
@@ -59,10 +95,10 @@
       "git_blob_sha": "7022a098da2d40c6f200e0231d8447c806f2e53d"
     },
     {
-      "path": "skills/chrome-task-recovery/SKILL.md",
-      "bytes": 8342,
-      "sha256": "51933806a0f38241e37195ca22f6e1728d7481238fcd4ece5d2e641d99dd7458",
-      "git_blob_sha": "c369a5862dbcdfa75c5f474ce6e2ac04aae7a9b1"
+      "path": "skills/feishu-contact-manager-weekly/SKILL.md",
+      "bytes": 4651,
+      "sha256": "5c56661d17d77c49a979550c99908a59d736dda28ce7378855613a7dc66119ff",
+      "git_blob_sha": "75b7c9abd2283de42e17b248c575c42ce37bd867"
     },
     {
       "path": "skills/feishu-contact-manager-weekly/agents/openai.yaml",
@@ -77,10 +113,10 @@
       "git_blob_sha": "65a2917437ea39d009367c24cae494f9824af724"
     },
     {
-      "path": "skills/feishu-contact-manager-weekly/SKILL.md",
-      "bytes": 4651,
-      "sha256": "5c56661d17d77c49a979550c99908a59d736dda28ce7378855613a7dc66119ff",
-      "git_blob_sha": "75b7c9abd2283de42e17b248c575c42ce37bd867"
+      "path": "skills/feishu-property-pdf-filer/SKILL.md",
+      "bytes": 41034,
+      "sha256": "0d88e7bdbfdd126e97c6130b3b898896dc35ea3c9314d46cd292acd6ed30acef",
+      "git_blob_sha": "d792fc321fed74ea790965d3d5f0a77ad331d4a9"
     },
     {
       "path": "skills/feishu-property-pdf-filer/agents/openai.yaml",
@@ -89,10 +125,10 @@
       "git_blob_sha": "1deae4b3fdc48386405161d58fcdf038ca9d2aa4"
     },
     {
-      "path": "skills/feishu-property-pdf-filer/SKILL.md",
-      "bytes": 41034,
-      "sha256": "0d88e7bdbfdd126e97c6130b3b898896dc35ea3c9314d46cd292acd6ed30acef",
-      "git_blob_sha": "d792fc321fed74ea790965d3d5f0a77ad331d4a9"
+      "path": "skills/feishu-startrise-monthly-finance/SKILL.md",
+      "bytes": 5825,
+      "sha256": "a2dfd21f636515daa74c4e7ce0243d14dffbdb1d858fd0b19a875b427400a5fe",
+      "git_blob_sha": "de9d7b0a8cf4ada8ecac4f9349c67e30e30bc043"
     },
     {
       "path": "skills/feishu-startrise-monthly-finance/agents/openai.yaml",
@@ -101,10 +137,10 @@
       "git_blob_sha": "da639ed0341d67867e4e3711a358db66803a339d"
     },
     {
-      "path": "skills/feishu-startrise-monthly-finance/SKILL.md",
-      "bytes": 5825,
-      "sha256": "a2dfd21f636515daa74c4e7ce0243d14dffbdb1d858fd0b19a875b427400a5fe",
-      "git_blob_sha": "de9d7b0a8cf4ada8ecac4f9349c67e30e30bc043"
+      "path": "skills/floor-planner/SKILL.md",
+      "bytes": 11053,
+      "sha256": "76ad013ef31aa60a9e66469bb9c3abf018a71cb663225c0dff8cb592132ede7f",
+      "git_blob_sha": "692228a7116da61531eb730c8a9e6c2a24421c34"
     },
     {
       "path": "skills/floor-planner/agents/openai.yaml",
@@ -119,10 +155,10 @@
       "git_blob_sha": "99c8a053f2225af026adc7ea976e83486bd11533"
     },
     {
-      "path": "skills/floor-planner/SKILL.md",
-      "bytes": 11053,
-      "sha256": "76ad013ef31aa60a9e66469bb9c3abf018a71cb663225c0dff8cb592132ede7f",
-      "git_blob_sha": "692228a7116da61531eb730c8a9e6c2a24421c34"
+      "path": "skills/new-airbnb-listing/SKILL.md",
+      "bytes": 12949,
+      "sha256": "f6946a6fa058b1bba29887f8e6b3f8162f9a00f0d40d64d0af5539e61e1754be",
+      "git_blob_sha": "35873d968f4968f5012f18a3e061a352e2467289"
     },
     {
       "path": "skills/new-airbnb-listing/agents/openai.yaml",
@@ -197,10 +233,10 @@
       "git_blob_sha": "63539d42c0903c71c323140ed02fcfbec0f82acf"
     },
     {
-      "path": "skills/new-airbnb-listing/SKILL.md",
-      "bytes": 12949,
-      "sha256": "f6946a6fa058b1bba29887f8e6b3f8162f9a00f0d40d64d0af5539e61e1754be",
-      "git_blob_sha": "35873d968f4968f5012f18a3e061a352e2467289"
+      "path": "skills/operation-breezeway-onboarding/SKILL.md",
+      "bytes": 6580,
+      "sha256": "761c89c078388ae768c473310d370b1b42fee472183e9e2f90dd477b554dd645",
+      "git_blob_sha": "6c107e335f63676019c4abc65bf9f754f145ed14"
     },
     {
       "path": "skills/operation-breezeway-onboarding/agents/openai.yaml",
@@ -209,10 +245,10 @@
       "git_blob_sha": "cb8bfa9d5f703c66ab42ce048fe1aaeb363b95b4"
     },
     {
-      "path": "skills/operation-breezeway-onboarding/SKILL.md",
-      "bytes": 6580,
-      "sha256": "761c89c078388ae768c473310d370b1b42fee472183e9e2f90dd477b554dd645",
-      "git_blob_sha": "6c107e335f63676019c4abc65bf9f754f145ed14"
+      "path": "skills/operation-monthly-owner-report/SKILL.md",
+      "bytes": 18023,
+      "sha256": "abab87c0e21086da6183833f9062c1a0f32c5fdcbc78424c4441cf615dce9cd1",
+      "git_blob_sha": "4ab6ad4c1e4edf99c2de2a9bebe4ccd6e8923978"
     },
     {
       "path": "skills/operation-monthly-owner-report/agents/openai.yaml",
@@ -239,10 +275,10 @@
       "git_blob_sha": "4679dffbf421edb7bb181a04d5e05164f0c93683"
     },
     {
-      "path": "skills/operation-monthly-owner-report/SKILL.md",
-      "bytes": 18023,
-      "sha256": "abab87c0e21086da6183833f9062c1a0f32c5fdcbc78424c4441cf615dce9cd1",
-      "git_blob_sha": "4ab6ad4c1e4edf99c2de2a9bebe4ccd6e8923978"
+      "path": "skills/operation-quickbook-monthly-bank-reconciliation/SKILL.md",
+      "bytes": 17103,
+      "sha256": "e03c5eab08977f652866433abef6428415ef69a6141c1452131be0a285468257",
+      "git_blob_sha": "651bbb3f3b1616f207e3213b92991b09ae6b4b4a"
     },
     {
       "path": "skills/operation-quickbook-monthly-bank-reconciliation/agents/openai.yaml",
@@ -275,10 +311,10 @@
       "git_blob_sha": "5518ce03602c6f2cdaaad99afd824bb05b4562eb"
     },
     {
-      "path": "skills/operation-quickbook-monthly-bank-reconciliation/SKILL.md",
-      "bytes": 17103,
-      "sha256": "e03c5eab08977f652866433abef6428415ef69a6141c1452131be0a285468257",
-      "git_blob_sha": "651bbb3f3b1616f207e3213b92991b09ae6b4b4a"
+      "path": "skills/operation-thursday-invoices/SKILL.md",
+      "bytes": 10746,
+      "sha256": "2b83caa4a417ae3ad00a7ae91433bc7022de2aa1dde285053048ce256ea868df",
+      "git_blob_sha": "5beb78a5403d088b512d23c7d9084caf48550d00"
     },
     {
       "path": "skills/operation-thursday-invoices/agents/openai.yaml",
@@ -293,10 +329,10 @@
       "git_blob_sha": "65cc9847a9b4be416be434b80959b41e7c2b4871"
     },
     {
-      "path": "skills/operation-thursday-invoices/SKILL.md",
-      "bytes": 10746,
-      "sha256": "2b83caa4a417ae3ad00a7ae91433bc7022de2aa1dde285053048ce256ea868df",
-      "git_blob_sha": "5beb78a5403d088b512d23c7d9084caf48550d00"
+      "path": "skills/quickbook-reconciliation-category/SKILL.md",
+      "bytes": 8632,
+      "sha256": "b9b955a3b06ac7a5a68a288a3c824fd726113bd4fe7996fb5f6ac202c65963aa",
+      "git_blob_sha": "4e7a9fe5ba515adcf8a024a2bc433f380fbcca14"
     },
     {
       "path": "skills/quickbook-reconciliation-category/agents/openai.yaml",
@@ -329,10 +365,10 @@
       "git_blob_sha": "b8321c4ef97738e5092533b1914f76b9be7bfc8c"
     },
     {
-      "path": "skills/quickbook-reconciliation-category/SKILL.md",
-      "bytes": 8632,
-      "sha256": "b9b955a3b06ac7a5a68a288a3c824fd726113bd4fe7996fb5f6ac202c65963aa",
-      "git_blob_sha": "4e7a9fe5ba515adcf8a024a2bc433f380fbcca14"
+      "path": "skills/sales-str-report/SKILL.md",
+      "bytes": 26409,
+      "sha256": "923ff75b4bef863ee286c9dac784ea7c001e30fc737c2a495fdf40888beb2dc8",
+      "git_blob_sha": "bf5dd652bce1a0ffd6de628a7f5f7818088ee25e"
     },
     {
       "path": "skills/sales-str-report/agents/openai.yaml",
@@ -443,10 +479,34 @@
       "git_blob_sha": "76281e2b0374d54af31bbe62238959295223ba09"
     },
     {
-      "path": "skills/sales-str-report/SKILL.md",
-      "bytes": 26409,
-      "sha256": "923ff75b4bef863ee286c9dac784ea7c001e30fc737c2a495fdf40888beb2dc8",
-      "git_blob_sha": "bf5dd652bce1a0ffd6de628a7f5f7818088ee25e"
+      "path": "skills/sales-wix-daily-blog/SKILL.md",
+      "bytes": 11623,
+      "sha256": "1aba00ef6e725de6afda13f8787c1b2f23de1aa99be67b0fccd208e92556be52",
+      "git_blob_sha": "bc0b2e1df26375afb5e592082469fde66a9d7fad"
+    },
+    {
+      "path": "skills/sales-wix-daily-blog/agents/openai.yaml",
+      "bytes": 480,
+      "sha256": "874ad6d90d00e7b36acd338661e89e417db58b57aa75d30255a6f7e2d6a396f3",
+      "git_blob_sha": "0f019da681ff27cf49f8da4b79526a49c200f43c"
+    },
+    {
+      "path": "skills/sales-wix-daily-blog/references/publishing.md",
+      "bytes": 6001,
+      "sha256": "9770a93bd104da8ace4f9043d4a19c7c124e7922d0f198a69fa10a457e40b5b2",
+      "git_blob_sha": "f47b697ba2e839af2ce16f216599d6069d32807e"
+    },
+    {
+      "path": "skills/sales-wix-daily-blog/scripts/check_due.py",
+      "bytes": 1928,
+      "sha256": "547eef6a4940bdc7ed7e16e5d5eb4e6ed3df07ed62b1d2f2e971741339cf82bd",
+      "git_blob_sha": "421fb55d4f0c78617eb7f6941d1c51137b815979"
+    },
+    {
+      "path": "skills/seednest-order-tracker/SKILL.md",
+      "bytes": 5196,
+      "sha256": "36862626387fc3186ed6b0b80ba48c9db08d4c0deccfec2981fa8ba0e6613050",
+      "git_blob_sha": "377df83aa536a1e980fc166dc10d5670d24a39a1"
     },
     {
       "path": "skills/seednest-order-tracker/agents/openai.yaml",
@@ -467,10 +527,10 @@
       "git_blob_sha": "238c3fdd5f92f311572d746a24144d088862ceb0"
     },
     {
-      "path": "skills/seednest-order-tracker/SKILL.md",
-      "bytes": 5196,
-      "sha256": "36862626387fc3186ed6b0b80ba48c9db08d4c0deccfec2981fa8ba0e6613050",
-      "git_blob_sha": "377df83aa536a1e980fc166dc10d5670d24a39a1"
+      "path": "skills/seednest-presign-procurement/SKILL.md",
+      "bytes": 13566,
+      "sha256": "9100256fac5f78f916d0444101734437e397e1ffed2f4d40a501bcf4639eb112",
+      "git_blob_sha": "915824813846f6536d50a2bd1f98059d65db6a7d"
     },
     {
       "path": "skills/seednest-presign-procurement/agents/openai.yaml",
@@ -563,10 +623,10 @@
       "git_blob_sha": "c784ed2edf61513523db29d94d54d38a6c0fa121"
     },
     {
-      "path": "skills/seednest-presign-procurement/SKILL.md",
-      "bytes": 13566,
-      "sha256": "9100256fac5f78f916d0444101734437e397e1ffed2f4d40a501bcf4639eb112",
-      "git_blob_sha": "915824813846f6536d50a2bd1f98059d65db6a7d"
+      "path": "skills/seednest-property-monthly-finance/SKILL.md",
+      "bytes": 11225,
+      "sha256": "eff39ee510679bd1f76cbbd77037400ce01fa5c9449b471c352336bffeeabf92",
+      "git_blob_sha": "8d717d82bc7b9493ba9fa1af61c3a1d52ffb8196"
     },
     {
       "path": "skills/seednest-property-monthly-finance/agents/openai.yaml",
@@ -575,10 +635,10 @@
       "git_blob_sha": "a60ca9fcb4f4d2b140a789350dc073603b2f4ae2"
     },
     {
-      "path": "skills/seednest-property-monthly-finance/SKILL.md",
-      "bytes": 11225,
-      "sha256": "eff39ee510679bd1f76cbbd77037400ce01fa5c9449b471c352336bffeeabf92",
-      "git_blob_sha": "8d717d82bc7b9493ba9fa1af61c3a1d52ffb8196"
+      "path": "skills/setup-booking-com-listing/SKILL.md",
+      "bytes": 9405,
+      "sha256": "6f801dc22a0860106b46eb0f99efd5d9826915d3c35749f1770331a6e3546112",
+      "git_blob_sha": "780790ef8e08c77da6249aa39a037d9f094e1d95"
     },
     {
       "path": "skills/setup-booking-com-listing/agents/openai.yaml",
@@ -743,10 +803,10 @@
       "git_blob_sha": "0b90c126c12a2a2faff94ca48ef817443949fe35"
     },
     {
-      "path": "skills/setup-booking-com-listing/SKILL.md",
-      "bytes": 9405,
-      "sha256": "6f801dc22a0860106b46eb0f99efd5d9826915d3c35749f1770331a6e3546112",
-      "git_blob_sha": "780790ef8e08c77da6249aa39a037d9f094e1d95"
+      "path": "skills/setup-checkin-manual/SKILL.md",
+      "bytes": 8300,
+      "sha256": "a19d19aab45de51a7ec04df8dfd1222f22a963156ad9944abcfc543ecb34297f",
+      "git_blob_sha": "3c4aac01df12810edb61b7f39b4e713fe3a17162"
     },
     {
       "path": "skills/setup-checkin-manual/agents/openai.yaml",
@@ -755,10 +815,10 @@
       "git_blob_sha": "f0cd59ec3cc059dafdc9864d99a72d764c678c95"
     },
     {
-      "path": "skills/setup-checkin-manual/SKILL.md",
-      "bytes": 8300,
-      "sha256": "a19d19aab45de51a7ec04df8dfd1222f22a963156ad9944abcfc543ecb34297f",
-      "git_blob_sha": "3c4aac01df12810edb61b7f39b4e713fe3a17162"
+      "path": "skills/setup-group-arrival-followup/SKILL.md",
+      "bytes": 9921,
+      "sha256": "9f314306760a4228d26e6c81d02afa4896d61744f41dd2aac62d5a5c90fb4d16",
+      "git_blob_sha": "584377f5caca65390c6f44f86a238db455d998ec"
     },
     {
       "path": "skills/setup-group-arrival-followup/agents/openai.yaml",
@@ -785,10 +845,10 @@
       "git_blob_sha": "d8a03323bc155c327d06149aa3df5032acfeac88"
     },
     {
-      "path": "skills/setup-group-arrival-followup/SKILL.md",
-      "bytes": 9921,
-      "sha256": "9f314306760a4228d26e6c81d02afa4896d61744f41dd2aac62d5a5c90fb4d16",
-      "git_blob_sha": "584377f5caca65390c6f44f86a238db455d998ec"
+      "path": "skills/setup-message-automation/SKILL.md",
+      "bytes": 12543,
+      "sha256": "cea8891f2c59e8c1bbafb73d73ca9d0dccc743d6980775d2f652a25e0dc2a8e0",
+      "git_blob_sha": "061f2eb00e50e3ffa7ff1352b6baaf86d53fc463"
     },
     {
       "path": "skills/setup-message-automation/agents/openai.yaml",
@@ -797,10 +857,10 @@
       "git_blob_sha": "f6c45f8ccfcd6366794219dedc32048f5da8b071"
     },
     {
-      "path": "skills/setup-message-automation/SKILL.md",
-      "bytes": 12543,
-      "sha256": "cea8891f2c59e8c1bbafb73d73ca9d0dccc743d6980775d2f652a25e0dc2a8e0",
-      "git_blob_sha": "061f2eb00e50e3ffa7ff1352b6baaf86d53fc463"
+      "path": "skills/setup-order-updater/SKILL.md",
+      "bytes": 3500,
+      "sha256": "e4f64ee59ffa792eb3c6fdc8010a0bc0e1e277da7a68b435fce0e335858d69bb",
+      "git_blob_sha": "35000ef3cb68e2b6387767fef634962574f47550"
     },
     {
       "path": "skills/setup-order-updater/agents/openai.yaml",
@@ -815,22 +875,22 @@
       "git_blob_sha": "b4dfed6f8a2b4bc81a6f3a4c32a0239f0a9fdc38"
     },
     {
-      "path": "skills/setup-order-updater/SKILL.md",
-      "bytes": 3500,
-      "sha256": "e4f64ee59ffa792eb3c6fdc8010a0bc0e1e277da7a68b435fce0e335858d69bb",
-      "git_blob_sha": "35000ef3cb68e2b6387767fef634962574f47550"
+      "path": "skills/setup-property-invoice-reconciliation/SKILL.md",
+      "bytes": 15423,
+      "sha256": "d1fe901203596c5e751b6d7d6f6a14d992120fb26e6a1debffcd0ca273f53feb",
+      "git_blob_sha": "a5a5a62d5d062178cf6d036eb039824dff7c9f47"
     },
     {
       "path": "skills/setup-property-invoice-reconciliation/agents/openai.yaml",
-      "bytes": 202,
-      "sha256": "bac15daf7e85e60d9c176fe4943cf2fb5a5c3892713c61e7e5a6f1f21d172fe8",
-      "git_blob_sha": "53a263aeccd2dafab8f03661b6769f5609b4a48e"
+      "bytes": 205,
+      "sha256": "5edefaea6b4c3d014d8b8005a30a88d01a03c3a5d18b66b7c7727a5f45dd1768",
+      "git_blob_sha": "a580a2343687407f8a474295781d63e0f41fdce2"
     },
     {
-      "path": "skills/setup-property-invoice-reconciliation/SKILL.md",
-      "bytes": 11905,
-      "sha256": "0b7831f0667bb0b14668083756a9b8c4aac04b80b90df1e1c107e7e39fe8a1e6",
-      "git_blob_sha": "32e4eb0e8f54fa3e116429f4baea7d0a933e887a"
+      "path": "skills/support-email-reminder/SKILL.md",
+      "bytes": 6773,
+      "sha256": "4045ed2c021900694070a73b0f8eefd454af3011689ecdc268b72eced1f4d647",
+      "git_blob_sha": "ad4642901adfff7b1a5f60dc9d9776c4f8adfed3"
     },
     {
       "path": "skills/support-email-reminder/agents/openai.yaml",
@@ -843,12 +903,6 @@
       "bytes": 2874,
       "sha256": "3e6469d870d828f7b5efdefbe12e1cac85e105c13172b592a53f9182d245f132",
       "git_blob_sha": "0be5b3555f0740944c34bc84a1a4ab7112fa7823"
-    },
-    {
-      "path": "skills/support-email-reminder/SKILL.md",
-      "bytes": 6773,
-      "sha256": "4045ed2c021900694070a73b0f8eefd454af3011689ecdc268b72eced1f4d647",
-      "git_blob_sha": "ad4642901adfff7b1a5f60dc9d9776c4f8adfed3"
     }
   ]
 }

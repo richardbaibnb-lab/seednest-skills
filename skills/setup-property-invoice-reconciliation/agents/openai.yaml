@@ -1,3 +1,3 @@
 interface:
   display_name: "02-11 SETUP｜收尾时·核对并登记筹备发票"
-  short_description: "按房源地址逐张核对上线发票，金额与附件一票一行，同平台相邻排列"
+  short_description: "逐票核对上线费用与原件，并将采购表中确认已买的对应商品改为已完成"

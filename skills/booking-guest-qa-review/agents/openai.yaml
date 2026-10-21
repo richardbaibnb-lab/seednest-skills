@@ -1,0 +1,4 @@
+interface:
+  display_name: "Booking 客人问答每日审阅"
+  short_description: "每天逐账号逐房源检查客人问答，拟回复并发送PDF给飞书吴，批准后发布"
+  default_prompt: "使用 $booking-guest-qa-review 检查所有Booking账号的全部房源客人问答，生成建议回复PDF发给飞书紫色头像吴，等我批准后发布指定回复。"

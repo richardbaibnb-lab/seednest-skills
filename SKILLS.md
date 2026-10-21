@@ -1,11 +1,12 @@
-# 技能目录
+# 技能目录｜最新更新：2026-10-21
 
-当前版本：1.1.0（2026-10-19）。共 25 个自制技能，以下使用本机最新显示名称。
+当前版本：1.2.0。共 27 个自制技能。
 
 | 技能 | 用途 | 文件数 |
 |---|---|---|
 | [01-01 SALES｜签约前·制作短租收入预测报告](skills/sales-str-report/SKILL.md) | SALES-STR Report 收入报告制作：按房源地址和中英文要求，查询 AirDNA Rentalizer、筛选可比房源和季节性数据，复制 Qwilr 对应 sample 到 prepare，更新全部地址、日期、图片、文字与收入数据后交用户验收。用于新建或修改房源短租收入预测报告，不用于实际月度收支记账。 | 19 |
 | [01-02 SALES｜签约前·估算房源采购预算](skills/seednest-presign-procurement/SKILL.md) | 根据新房源户型图与用户指定的澳洲高档、澳洲标准版或澳洲加国内混合采购档位，参考飞书 SEEDNEST 民宿历史采购及国内供应商清单，生成签约前给房东看的澳币采购预算 PDF。用于房源筹备的粗估采购清单，不用于下单或修改采购记录。 | 16 |
+| [01-03 SALES｜每日·发布Wix博客](skills/sales-wix-daily-blog/SKILL.md) | 01-03 SALES｜每日·发布Wix博客：为 Seednest 正式站按墨尔本时间每天09:00自动发布英文文章，轮换区域房东获客、房东问题和设计筹备；支持备稿、去重、Wix预约发布及中断恢复。用于每日博客、选题和发布任务，不用于邮件群发或修改其他网站。 | 4 |
 | [02-01 SETUP｜布置前·制作Floorplanner三维布置图](skills/floor-planner/SKILL.md) | 根据房源地址和用户补充信息，在 Floorplanner 先上传2D平面图、按用户提供的房间尺寸建模并确认，再延伸整套平面和3D布置。以飞书（新）采购总表对应房源为家具依据，参考用户的历史 Floorplanner 案例，并汇报额外添加或调整的物品。用于平面图转3D、房源建模、floor planner 和按采购清单布置；不用于仅生成概念效果图或实际下单。 | 3 |
 | [02-02 SETUP｜下单后·核对并更新采购状态](skills/setup-order-updater/SKILL.md) | Match a property's setup screenshots to Feishu purchase rows, correct ordered statuses, and add screenshot items missing from the purchase table using an official 1688 order export. Use for Seednest property setup-order updates; do not treat every property or 1688 row as a screenshot match. | 3 |
 | [02-03 SETUP｜下单后·归档1688订单截图](skills/1688-order-screenshot-tracker/SKILL.md) | Track and archive 1688 orders sent to the 白5135 forwarding warehouse by reading only the recipient field, accepting only recipients where 白5135 is followed by a parenthesized address, grouping by that address, and saving order-detail screenshots that show the amount. Use for 1688 purchase tracking or screenshot filing; do not use the shipping-address field to classify orders. | 2 |
@@ -16,7 +17,7 @@
 | [02-08 SETUP｜上线前·配置Booking.com房源](skills/setup-booking-com-listing/SKILL.md) | SETUP- booking.com上架：按房源地址在 richardbaibnb@gmail.com 的 Booking.com Extranet 匹配已有房源，参考同账号正常运营的同类房源，并核对目标 Airbnb 照片和信息，设置设施、房间设施、房源政策及银行收付款。发送银行短信验证码前等用户准备好，KYP 暂由用户填写。用于上架配置与续做，不用于日常订单处理。 | 28 |
 | [02-09 SETUP｜首次清洁前·配置Breezeway清洁模板](skills/operation-breezeway-onboarding/SKILL.md) | OPERATION-BREEZEWAY上架：为新房源复制 Basic Clean (All propertry) 基础清洁模板，按房源地址命名并实际绑定该房源，将用户提供的特殊清洁要求、必拍设置及参考图加入专属副本。用于 Breezeway 新房源上架、清洁模板配置及同一上架任务续做；不用于周度清洁验收或修改所有房源的共享底板。 | 2 |
 | [02-10 SETUP｜首客前·配置Guesty自动消息](skills/setup-message-automation/SKILL.md) | SETUP-自动消息设置：按房源地址，在 Guesty 匹配同管理方式及物业类型的参考，复制确认、变更、取消三组，只编辑目标副本；保留规则与格式，按 pdfFiller 手册更新入住说明，并把所有清洁通知换为目标清洁团队。用于新房源设置及副本续做，不修改参考房源。 | 2 |
-| [02-11 SETUP｜收尾时·核对并登记筹备发票](skills/setup-property-invoice-reconciliation/SKILL.md) | SETUP-房源上线发票对账：按用户指定地址，读取飞书房源云盘的setup发票，将每张发票总额及原始附件录入民宿管理表的setup发票表，关联对应房源，一票一行、同平台相邻，并核对房源合计及重复记录。用于房源上线费用对账和补录；不用于日常月度收支、采购状态更新或付款。 | 2 |
+| [02-11 SETUP｜收尾时·核对并登记筹备发票](skills/setup-property-invoice-reconciliation/SKILL.md) | SETUP-房源上线发票对账：按房源地址读取飞书setup凭证，一票一行登记金额及原件、核对重复与合计，并将（新）采购总表中凭证确认已购买的对应商品购买进度改为已完成。用于上线费用对账、补录及对账后的采购状态同步；不用于日常月度收支或付款。 | 2 |
 | [03-01 OPERATION｜每日·提醒回复Support客人咨询](skills/support-email-reminder/SKILL.md) | 检查 support@seednest.com.au 的新客人住宿咨询，通过飞书提醒指定的 Sabrina 回复，并在每天墨尔本时间 11 点复查超时未回复邮件。用于 support邮箱提醒、客人咨询催回复和该邮箱的每天10点/11点定时检查。 | 3 |
 | [03-02 OPERATION｜每日·检查未来3日入住订单收款](skills/arrival-payment-watch/SKILL.md) | OPERATION-3日未付款订单检测：每天后台检查未来三日内非 Airbnb 入住订单的未收款情况，发现风险后飞书提醒指定的“吴”单聊，并在 Codex 醒目通知用户。Airbnb 默认正常，不进入记录或提醒。用于入住前未收款检查、开机后尽快检查和定时运行；不扣款、不取消订单、不向客人催款。 | 3 |
 | [03-03 OPERATION｜每周一·检查Breezeway清洁质量](skills/breezeway-weekly-review/SKILL.md) | 检查 Breezeway 全部在用房源近期清洁任务、清洁工上传照片及相关未关闭问题，按优先级生成中文图文 PDF 周报，并在用户已授权的周度流程中发送给飞书 Sabrina。用于 breezeway周度检查、清洁照片验收、周报和周期复查。 | 3 |
@@ -28,4 +29,5 @@
 | [04-05 FINANCE｜每月·核查到账差异与客人欠款](skills/operation-quickbook-monthly-bank-reconciliation/SKILL.md) | OPERATION-QUICKBOOK每月银行收入对账：以QuickBooks实际银行收款为主，核查Airbnb、Booking、Guesty和Stripe，识别最终未付清的客人及系统未同步余额；Vrbo按用户确认的Stripe路径查。同步追查平台漏打款、少到账和不明入款。用于月度客人欠款与到账核查，补充月度记账；不执行扣款、记账或银行Reconcile。 | 6 |
 | [04-06 FINANCE｜每月·制作房东月度报告](skills/operation-monthly-owner-report/SKILL.md) | OPERATION - 每月房东报告制作：沿用各房源上月Excel，按飞书房东信息表核对收费规则，复用并补齐平台收入、费用及QuickBooks对账证据，将Excel归档Monthly report月份文件夹，用指定月度reporter和SEEDNEST logo生成PDF供用户确认，确认后上传对应Guesty房东Documents。用于房东月报制作、修改与确认后上传；不代替公司月度记账或自动付款。 | 5 |
 | [04-07 FINANCE｜每月·更新Startrise公司收支](skills/feishu-startrise-monthly-finance/SKILL.md) | Update the Startrise management pty ltd monthly income and expense records in the user's Feishu homestay management base, including company invoices, managed-property fees, partner-operated property fees, duplicate cleanup, and monthly row ordering. Use when the user asks to do a particular month or the usual monthly Startrise finance update. | 2 |
+| [Booking 客人问答每日审阅](skills/booking-guest-qa-review/SKILL.md) | 每天检查全部 Booking.com 账号下每个房源的“收件箱→客人问答”，核实事实并拟回复，生成中文审阅PDF发给飞书紫色头像“吴”；用户批准具体版本后回原问题发布。用于开机后检查、补查、报告及批准后的回复，不用于订单消息或住客评语回复。 | 5 |
 | [Chrome 任务连接与恢复](skills/chrome-task-recovery/SKILL.md) | 为所有使用 Chrome 的 Codex 网页任务建立官方扩展连接、复用现有会话、处理可重试的 request-header policy 初始化失败，并在实际读到目标页面后继续业务操作。用于 Chrome 连接与任务前检查；遵循最新全局浏览器偏好，不绕过访问限制，不自动重放提交或验证码操作。 | 2 |
